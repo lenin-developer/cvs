@@ -1,0 +1,166 @@
+
+#div-sombra{
+  box-shadow: 0px 0px 40px 1px #CDC5C3; 
+}
+.color-fondo{
+  background-color:#274257; /*#383838;*/
+}
+#img-foto{
+  width:12em;
+  border-radius: 150px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+.nombre{
+  color:#fff;
+  font-family: 'Concert One', cursive;
+  font-size: 2.5em;
+}
+.text-style{
+  font-family: 'Concert One', cursive;
+}
+
+
+#h-desarrollador{
+  display:block;
+  background: #01b2e6;
+  color:#ffffff;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  margin-bottom: 2em;
+}
+#contacto{
+color: #fff;
+font-family: 'Concert One', cursive;
+font-weight: bold;
+}
+
+.contacto-inf{
+  display:inline-block;
+  box-sizing:inherit;
+  margin-bottom: 0.5em;
+}
+#correo{
+  color: #fff;
+  word-break: break-all;
+}
+#cuaji{
+  color: #fff;
+}
+
+
+
+
+
+ /*------- style derecha----------- */
+
+
+#img-descripcion{
+  margin-top: 5px;
+}
+
+ #h-descripcion{
+   display:block;
+   background: #274257;
+   color:#ffffff;
+   width: 100%;
+   border-bottom-left-radius: 15px;
+   margin-top: 10px; 
+ }
+
+ #div-descrpcion{
+   margin-bottom: 3.5em;
+ }
+
+#p-descripcion{  
+  text-align:justify;
+  font-family: 'Raleway', sans-serif;
+   white-space: pre-line; 
+}
+
+#div-habil-conoci{
+margin-bottom: 2em;
+}
+
+.h-habilidades-conocimientos{
+  color:#fff;
+  background: #274257;
+  display: inline-block;
+  border: 30px;
+  padding: 1px 10px;
+  border-radius: 15px;
+  margin-bottom: 1.5em;
+ 
+}
+.lista{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+#h-carrera{
+  /* font-weight: 900;
+  font-style: oblique; */
+  font-family: 'Concert One', cursive;
+}
+#div-educacion{
+  width: 100%;
+  margin-left:15px;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.082);
+  border-width: 1px;
+  box-shadow: 0px 0px 20px 1px #CDC5C3;
+  margin-top: 1em;  
+}
+
+#div-titulo-certificado{
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.div-certificado{
+  margin-bottom: 20px; 
+  box-shadow: 0px 0px 20px 1px #CDC5C3;
+}
+.divn{
+  display: inline;
+}
+
+.centrar-V{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+@media only screen and (max-width: 420px) {
+ #img-descripcion{
+   height: 40px;
+   width: 40px;
+ }
+}
+
+/* condiciones de tamaño */
+
+@media only screen and (max-width: 1200px) {
+ 
+}
+
+@media only screen and (max-width: 992px) {
+ #div-educacion{
+   margin-left: 0px;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+ 
+}
+
+@media only screen and (max-width: 576px) {
+ 
+}
+
+@media only screen and (min-width: 576px) {
+ 
+}
